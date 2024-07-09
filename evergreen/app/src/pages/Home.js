@@ -6,10 +6,9 @@ import Username from "../components/Username";
 
 import { ReactComponent as Github } from "../assets/icons/svg/github.svg";
 import { ReactComponent as android } from "../assets/icons/svg/android.svg";
-import { ReactComponent as Youtube } from "../assets/icons/svg/youtube.svg";
+import { ReactComponent as Kofi } from "../assets/icons/svg/kofi.svg";
 import { ReactComponent as OF } from "../assets/icons/svg/onlyfans.svg";
 import { ReactComponent as telegram } from "../assets/icons/svg/telegram.svg";
-import { ReactComponent as soundcloud } from "../assets/icons/svg/soundcloud.svg";
 
 function Home() {
   return (
@@ -26,14 +25,14 @@ function Home() {
         icon={Github}
       />
       <Button
-        text="Youtube"
-        link="https://www.youtube.com/@thatfrenchyboii"
-        icon={Youtube}
-      />
-      <Button
         text="Onlyfans"
         link="https://youtu.be/Pwq4rqJYH8o"
         icon={OF}
+      />
+      <Button
+        text="Ko-fi"
+        link="https://ko-fi.com/0xsharkboy"
+        icon={Kofi}
       />
       <Button
         text="My XDA profile"
